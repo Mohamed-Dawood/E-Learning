@@ -43,3 +43,22 @@ setInterval(() => {
 }, 3000)
 
 // end random image
+
+let up = document.querySelector(".up");
+
+
+
+window.onscroll = function() {
+    if (window.scrollY >= 550) {
+        up.classList.add("show")
+    } else {
+        up.classList.remove("show")
+    }
+}
+
+up.onclick = function() {
+    scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+}

@@ -34,6 +34,27 @@ a {
     text-decoration: none;
 }
 
+body .up {
+    background: var(--main-color);
+    position: fixed;
+    bottom: 15px;
+    right: -45px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    color: white;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    cursor: pointer;
+    z-index: 9;
+}
+
+.up.show {
+    right: 10px;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -1065,6 +1086,7 @@ footer section ul li:nth-child(2):hover i {
 
 footer section ul li i {
     color: #888888;
+    font-size: 20px;
 }
 
 
