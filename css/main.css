@@ -351,6 +351,10 @@ nav ul li a {
     padding: 60px 0;
 }
 
+.courses .container {
+    overflow: hidden;
+}
+
 .courses .container h2 {
     text-transform: capitalize;
     text-align: center;
