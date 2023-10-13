@@ -2,7 +2,8 @@
 let bars = document.querySelector("nav .icons i");
 let ul = document.querySelector(".landing nav ul");
 let close = document.querySelector("nav .close")
-let landingend = document.querySelector(".landingend")
+let landingend = document.querySelector(".landingend");
+
 
 bars.onclick = function() {
     ul.classList.add("open")
@@ -22,7 +23,6 @@ mood.onclick = function() {
         landingend.src = "imgs/dark mood.svg";
     } else {
         mood.src = "imgs/dark.png"
-
         landingend.src = "imgs/wave-haikei (1).svg"
     }
 }
