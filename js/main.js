@@ -49,7 +49,7 @@ let up = document.querySelector(".up");
 
 
 window.onscroll = function() {
-    if (window.scrollY >= 550) {
+    if (this.scrollY >= 550) {
         up.classList.add("show")
     } else {
         up.classList.remove("show")
