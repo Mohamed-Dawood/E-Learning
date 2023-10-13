@@ -1,6 +1,6 @@
 //start full screen nav
 let bars = document.querySelector("nav .icons i");
-let ul = document.querySelector("nav ul");
+let ul = document.querySelector(".landing nav ul");
 let close = document.querySelector("nav .close")
 let landingend = document.querySelector(".landingend")
 
