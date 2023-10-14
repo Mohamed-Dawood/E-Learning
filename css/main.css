@@ -38,7 +38,7 @@ body .up {
     background: var(--main-color);
     position: fixed;
     bottom: 15px;
-    right: -45px;
+    right: -45px !important;
     padding: 7px 10px;
     border-radius: 6px;
     color: white;
@@ -51,7 +51,7 @@ body .up {
     z-index: 9;
 }
 
-.up.show {
+.up .show {
     right: 10px;
 }
 
