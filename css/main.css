@@ -38,7 +38,7 @@ body .up {
     background: var(--main-color);
     position: fixed;
     bottom: 15px;
-    right: -45px !important;
+    right: -45px;
     padding: 7px 10px;
     border-radius: 6px;
     color: white;
@@ -51,8 +51,8 @@ body .up {
     z-index: 9;
 }
 
-.up .show {
-    right: 10px;
+.up.show {
+    right: 12px;
 }
 
 ::-webkit-scrollbar {
