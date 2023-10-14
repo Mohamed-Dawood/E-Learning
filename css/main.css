@@ -51,6 +51,10 @@ body .up {
     z-index: 9;
 }
 
+body .up:hover {
+    background-color: #ff206c
+}
+
 .up.show {
     right: 12px;
 }
@@ -639,6 +643,7 @@ nav ul li a {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    z-index: 0;
 }
 
 .slider__nav {
